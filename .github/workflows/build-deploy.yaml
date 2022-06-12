@@ -28,5 +28,5 @@ jobs:
           package: ${{ github.event.repository.name }}
           user: ${{ github.actor }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          uri: ghcr.io/pakages
+          uri: ghcr.io/pakages/m4
         run: /entrypoint.sh 
